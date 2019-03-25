@@ -8,13 +8,13 @@ Once deployed, the app will display three boxes that will display the options fo
 
 The first box is titled, **"Burger Menu."**
 
-    - This menu box will display the seven available burgers that the restaurant has          to offer the user. The burgers are stored in MySQL database.
+- This menu box will display the seven available burgers that the restaurant has to offer the user. The burgers are stored in MySQL database.
         
-    - Next to each burger there is a button that states, "Inhale." Once the user clicks the "Inhale" button, that specific burger will move to the second box entitled, "Inhaled Burgers."
+- Next to each burger there is a button that states, "Inhale." Once the user clicks the "Inhale" button, that specific burger will move to the second box entitled, "Inhaled Burgers."
 
 The second box is titled, **"Inhaled Burgers."**
 
-    - This box will display in list form the inhaled burgers that were submitted by the "Inhale" button from the Burger Menu.
+- This box will display in list form the inhaled burgers that were submitted by the "Inhale" button from the Burger Menu.
 
 The third box is titled, **"Burger Orders."**
 
