@@ -14,12 +14,14 @@
             <h5 class="card-title">Burger Menu</h5>
             <hr style="border-color: black">
             <p class="card-text">
-                {{#each burger_name}}
+                {{#each burger_data}}
                 {{#unless this.devoured}}
-                {{> burgers/burger-block devoured=true}}
+                <pre>{{this.id}}. {{this.burger_name}} </pre>
+                {{ burgers/burger-block devoured=true}}
                 {{/unless}}
                 {{/each}}
                 <button type="submit" id="submit_btn2" class="btn rounded-0">Inhale The Burger!</button>
+            </p>
         </div>
     </div>
 
@@ -28,7 +30,7 @@
             <h5 class="card-title">Inhaled Burgers</h5>
             <hr style="border-color: black">
             <p class="card-text">
-                {{#each burger_name}}
+                {{#each burger_data}}
                 {{#if devoured}}
                 {{> burgers/burger-block devoured=false}}
                 {{/if}}
