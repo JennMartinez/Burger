@@ -58,13 +58,13 @@ img {
     color: black;
 }
 
-#submit_btn {
+.order_btn {
     border: solid 2px rgb(240, 76, 0);
     color: black;
     font-family: 'Notable', sans-serif;
 }
 
-#submit_btn2 {
+.inhale {
     border: solid 2px rgb(240, 76, 0);
     color: black;
     font-size: 12px;

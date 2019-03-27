@@ -18,4 +18,6 @@ The second box is titled, **"Inhaled Burgers."**
 
 The third box is titled, **"Burger Orders."**
 
+- There is a burger search bar that allows the user to input any burger that they wish to order. Once the user has typed the burger that they want that is not listed on the menu, they can click the **"Inhale!"** button. The **"Inhale!"** button moves the burger to the second box, **"Inhaled Burgers!"**
+
 

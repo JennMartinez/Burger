@@ -16,10 +16,9 @@
             <p class="card-text">
                 {{#each burger_data}}
                 {{#unless this.devoured}}
-                <pre>{{this.id}}. {{this.burger_name}} </pre>
-                {{ burgers/burger-block devoured=true}}
+                <pre>{{this.id}}. {{this.burger_name}}</pre>
+                <button type="submit" data-id="{{this.id}}" class="inhale btn rounded-0">Inhale The Burger!</button>
                 {{/unless}}
-                <button type="submit" id="submit_btn2" class="btn rounded-0">Inhale The Burger!</button>
                 {{/each}}
             </p>
         </div>
@@ -32,7 +31,7 @@
             <p class="card-text">
                 {{#each burger_data}}
                 {{#if devoured}}
-                {{> burgers/burger-block devoured=false}}
+                <pre>{{this.id}}. {{this.burger_name}}</pre>
                 {{/if}}
                 {{/each}}
         </div>
@@ -43,20 +42,13 @@
             <h5 class="card-title">Burger Orders</h5>
             <hr style="border-color: black">
             <form class="create-form">
+                {{!-- action="/burgers/create" method="POST" --}}
                 <div class="form-group">
                     <label id="form" for="new_burger">Burger:</label>
                     <input type="text" id="new_burger">
                 </div>
-                <button type="submit" id="submit_btn" class="btn rounded-0">Submit Order</button>
+                <button type="submit" class="order_btn btn rounded-0" id="order_burger" >Submit Order</button>
             </form>
         </div>
     </div>
 </div>
-
-{{!-- <div>
-    {{#each burger_data}}
-    <p>
-        {{this.id}}: {{this.burger_name}}
-    </p>
-    {{/each}}
-</div> --}}
