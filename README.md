@@ -4,6 +4,8 @@ This is an assignment that utilizes **MySQL, Node, Express, Handlebars, and Obje
 
 **Heroku** is used to deploy the **Barnyard Burger App.**
 
+https://sleepy-tor-30406.herokuapp.com/
+
 Once deployed, the app will display three boxes that will display the options for the user to interact with Barnyard Burger. 
 
 The first box is titled, **"Burger Menu."**
@@ -14,7 +16,7 @@ The first box is titled, **"Burger Menu."**
 
 **Below is a screenshot of the burgers available.**
 
-![Image of menu](assets/images/menu.jpg)
+![Image of menu](public/assets/images/menu.jpg)
 
 The second box is titled, **"Inhaled Burgers."**
 
@@ -22,7 +24,7 @@ The second box is titled, **"Inhaled Burgers."**
 
 **Below is a screenshot of a burger that has been submitted by the "Inhale The Burger!" and has been moved to the "Inhaled Burgers" box.**
 
-![Image of inhaled burgers](assets/images/inhaled.jpg)
+![Image of inhaled burgers](public/assets/images/inhaled.jpg)
 
 The third box is titled, **"Burger Orders."**
 
@@ -30,6 +32,5 @@ The third box is titled, **"Burger Orders."**
 
 **Below is a screenshot of the user submitting a custom burger in the "Burger Orders" box and has been listed in the the "Inhaled Burgers" box by submitting the order.**
 
-![Image of custom burger orders]()
 
 
