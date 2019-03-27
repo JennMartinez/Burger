@@ -1,9 +1,9 @@
 <div>
     <br>
-    <h1>Barnyard Burger</h1>
+    <h1 id="title">Barnyard Burger</h1>
     <hr style="border-color: rgb(240, 76, 0)">
     <br>
-    <img src="/assets/images/steer.png" width="260px" height="160px">
+    <img src="/assets/images/steer.png" id="picture" width="295px" height="155px">
 </div>
 
 <br><br><br><br>
@@ -17,7 +17,7 @@
                 {{#each burger_data}}
                 {{#unless this.devoured}}
                 <pre>{{this.id}}. {{this.burger_name}}</pre>
-                <button type="submit" data-id="{{this.id}}" class="inhale btn rounded-0">Inhale The Burger!</button>
+                <button type="submit" data-id="{{this.id}}" class="inhale btn rounded-0" id="inhale_btn">Inhale The Burger!</button>
                 {{/unless}}
                 {{/each}}
             </p>
@@ -42,7 +42,6 @@
             <h5 class="card-title">Burger Orders</h5>
             <hr style="border-color: black">
             <form class="create-form">
-                {{!-- action="/burgers/create" method="POST" --}}
                 <div class="form-group">
                     <label id="form" for="new_burger">Create A Burger:</label>
                     <input type="text" name="burger_name" id="order">

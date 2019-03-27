@@ -6,21 +6,25 @@ body {
     background-image: url("../images/woodbg5p.jpg");
 }
 
-h1 {
+#title {
     text-align: center;
-    font-size: 57px;
+    font-size: 60px;
     font-family: 'Notable', sans-serif;
     color: black;
-    /* opacity: 0.7; */
-    /* font-family: 'Permanent Marker', cursive; */
+    text-shadow:
+		-0.5px -0.5px 0 rgb(240, 76, 0),
+        0.5px -0.5px 0 rgb(240, 76, 0),
+        -0.5px 0.5px 0 rgb(240, 76, 0),
+		0.5px 0.5px 0 rgb(240, 76, 0);
 }
 
-img {
+#picture {
     opacity: 0.5;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: solid 3px rgb(240, 76, 0);
+    border: solid 2px rgb(240, 76, 0);
+    outline: 4px solid black;
 }
 
 #first {
@@ -29,18 +33,21 @@ img {
 
 #one {
     border: solid 2px rgb(240, 76, 0);
+    outline: 4px solid black;
     opacity: 0.5;
     background: rgb(255, 255, 255);
 }
 
 #two {
     border: solid 2px rgb(240, 76, 0);
+    outline: 4px solid black;
     opacity: 0.5;
     background: rgba(255, 255, 255);
 }
 
 #three {
     border: solid 2px rgb(240, 76, 0);
+    outline: 4px solid black;
     opacity: 0.5;
     background: rgba(255, 255, 255);
 }
@@ -58,13 +65,13 @@ img {
     color: black;
 }
 
-.order_btn {
+#order_burger {
     border: solid 2px rgb(240, 76, 0);
     color: black;
     font-family: 'Notable', sans-serif;
 }
 
-.inhale {
+#inhale_btn {
     border: solid 2px rgb(240, 76, 0);
     color: black;
     font-size: 12px;
