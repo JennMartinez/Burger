@@ -7,7 +7,7 @@ var router = require("./controllers/burgers_controller.js");
 var app = express();
 
 // Port for the app //
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 // Public Directory where serve static content is accessed for the app //
 app.use(express.static("public"));

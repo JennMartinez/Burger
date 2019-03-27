@@ -15,11 +15,11 @@
             <hr style="border-color: black">
             <p class="card-text">
                 {{#each burger_name}}
-                {{#unless devoured}}
-                {{> burgers devoured=true}}
+                {{#unless this.devoured}}
+                {{> burgers/burger-block devoured=true}}
                 {{/unless}}
                 {{/each}}
-                <button type="submit" id="submit_btn2" class="btn rounded-0">Inhale The Burger</button>
+                <button type="submit" id="submit_btn2" class="btn rounded-0">Inhale The Burger!</button>
         </div>
     </div>
 
@@ -30,7 +30,7 @@
             <p class="card-text">
                 {{#each burger_name}}
                 {{#if devoured}}
-                {{> burgers devoured=false}}
+                {{> burgers/burger-block devoured=false}}
                 {{/if}}
                 {{/each}}
         </div>
@@ -50,18 +50,6 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div>
     {{#each burger_data}}
