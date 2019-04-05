@@ -17,7 +17,7 @@
                 {{#each burger_data}}
                 {{#unless this.devoured}}
                 <pre>{{this.id}}. {{this.burger_name}}</pre>
-                <button type="submit" data-id="{{this.id}}" class="inhale btn rounded-0" id="inhale_btn">Inhale The Burger!</button>
+                <button type="submit" data-id="{{this.id}}" class="inhale rounded-0">Inhale The Burger!</button>
                 {{/unless}}
                 {{/each}}
             </p>
@@ -41,12 +41,12 @@
         <div class="card-body">
             <h5 class="card-title">Burger Orders</h5>
             <hr style="border-color: black">
-            <form class="create-form">
+            <form class="create-form" action="/api/burgers/new_burger" method="POST">
                 <div class="form-group">
                     <label id="form" for="new_burger">Create A Burger:</label>
                     <input type="text" name="burger_name" id="order">
                 </div>
-                <button type="submit" class="order_btn btn rounded-0" id="order_burger" >Submit Order</button>
+                <button type="submit" class="order_btn btn rounded-0" id="order_burger">Submit Order</button>
             </form>
         </div>
     </div>

@@ -67,25 +67,20 @@ body {
 
 #order_burger {
     border: solid 2px rgb(240, 76, 0);
+    outline: 2px solid black;
     color: black;
     font-family: 'Notable', sans-serif;
 }
 
-#inhale_btn {
+.inhale {
     border: solid 2px rgb(240, 76, 0);
+    outline: 2px solid black;
     color: black;
     font-size: 12px;
     font-family: 'Notable', sans-serif;
     margin: 15px;
     margin-top: -1px;
 }
-
-/* #new_burger {
-    background-color: rgb(240, 76, 0);
-    background-color: black;
-    border: black;
-    
-} */
 
 input[type=text] {
     background-color: black;

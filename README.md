@@ -8,7 +8,7 @@ https://sleepy-tor-30406.herokuapp.com/
 
 Once deployed, the app will display three boxes that will display the options for the user to interact with Barnyard Burger. 
 
-The first box is titled, **"Burger Menu."**
+The first column is titled, **"Burger Menu."**
 
 - This menu box will display the seven available burgers that the restaurant has to offer. The burgers are stored in MySQL database.
         
@@ -19,20 +19,20 @@ The first box is titled, **"Burger Menu."**
 ![Image of menu](public/assets/images/menu.jpg)
 
 
-The second box is titled, **"Inhaled Burgers."**
+The second column is titled, **"Inhaled Burgers."**
 
-- This box will display in list form the inhaled burgers that were submitted by the **"Inhale The Burger!"** button from the **"Burger Menu"**, and the custom burger orders from the **"Burger Orders"** box.
+- This box will display in list form the inhaled burgers that were submitted by the **"Inhale The Burger!"** button from the **"Burger Menu"**, and the custom burger orders from the **"Burger Orders"**.
 
-**Below is a screenshot of a burger that has been submitted by the "Inhale The Burger!" and has been moved to the "Inhaled Burgers" box.**
+**Below is a screenshot of a burger that has been submitted by the "Inhale The Burger!" and has been moved to the "Burger Menu" column.**
 
 ![Image of inhaled burgers](public/assets/images/inhaled.jpg)
 
 
-The third box is titled, **"Burger Orders."**
+The third column is titled, **"Burger Orders."**
 
-- There is a **"Create A Burger"** search bar that allows the user to input any custom burger that they wish to order. Once the user has typed the custom burger that they want, they can then click the **"Submit Order"** button. The **"Submit Order"** button lists the burger in the second box, **"Inhaled Burgers!"**
+- There is a, **"Create A Burger"** search bar that allows the user to input any custom burger that they wish to order. Once the user has typed the custom burger that they wish to inhale, they then click the **"Submit Order"** button. The **"Submit Order"** button lists the burger(s) in the first column, **"Inhaled Burgers!"** Once the custom burger is listed in the first column, the user will then be able to click on the button below, **"Inhale The Burger"**, which will move the burger into the second column.
 
-**Below is a screenshot of the user submitting a custom burger in the "Burger Orders" box and has been listed in the the "Inhaled Burgers" box by submitting the order.**
+**Below is a screenshot of the user submitting a custom burger from the "Burger Orders" column, which is then listed at the bottom of the "Burger Menu" column ready to be inhaled into the second column.**
 
-
+![Image of inhaled burgers](public/assets/images/custom.jpg)
 
