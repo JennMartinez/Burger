@@ -14,8 +14,6 @@ router.get("/burgers", function(req,res){
   });
 });
 
-
-
 router.post("/", function(req, res) {
   if(req.body.burger_name !== "") {
     burger.create(req.body.burger_name.trim(), function() {
